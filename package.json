@@ -1,0 +1,10 @@
+{
+  "name": "OhMyFiles",
+  "version": "1.0.0",
+  "description": "A School project at the University of St. Gallen. Designed to synchronize files securely via SSH so you always have a Backup.",
+  "main": "main.js",
+  "repository": "https://github.com/dejavueakay/OhMyFiles",
+  "author": "Ilija Bajunovic",
+  "license": "MIT",
+  "private": false
+}
