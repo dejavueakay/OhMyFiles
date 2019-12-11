@@ -11,23 +11,74 @@ The goal of this project is to make use of one of the safest file transfer mecha
 
 What you will need before starting:
 
-* rsync installed on your computer
-* If you do not want to use the binaries but rather want to run it with node, **node v.13.2**
-* a remote server with SSH installed and access to it via ssh key
+* **rsync** installed on your computer
+* If you do not want to use the binaries but rather want to run it with node, **node v.13.2** and **git**.
+* a remote server with **SSH** installed and access to it via ssh key
 
-# Installing (node)
+# Installation
+
+## Using node
+
+You will need to run the following commands in a terminal.
+
+### Mac OS X
+
+This software was tested using Mac OS X Mojave 10.14.6, node v13.2.0 and npm 6.13.1.
+
+Install Homebrew. Homebrew is a package manager.
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+``` 
+
+Install node
+
+```
+brew install node
+```
+
+Install rsync
+
+```
+brew install rsync
+```
+
+Install git if you do not have it installed already
+
+```
+brew install git
+```
+
+Clone the repository
+
+```
+git clone https://github.com/dejavueakay/OhMyFiles.git
+```
+
+Change to the repo directory and install npm dependencies
+
+```
+cd OhMyFiles && npm install
+```
+
+If none of these commands returned an error, you are set to go!
+
+### Windows
+
+
+
+## Using the binaries
+
+### Mac OS X
+
+### Windows
+
+# Usage
 
 ## Mac OS X
 
 ## Windows
 
-
-
-# Installing (binaries)
-
-## Mac OS X
-
-## Windows
 
 
 
