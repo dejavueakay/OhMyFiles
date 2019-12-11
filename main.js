@@ -75,7 +75,7 @@ if (!options.directory) {
 }
 
 // Get a list of all subdirs
-// Source: https://stackoverflow.com/questions/18112204/get-all-directories-within-directory-nodejs
+// Source: https://stackoverflow.com/a/40896897
 // Comments are my own, I wrote them in order to understand what is happening
 // Helper function, which flattens an array. Arrays in the array get all lifted up to a single level.
 function flatten(lists) {
