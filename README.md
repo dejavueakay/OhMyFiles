@@ -7,7 +7,7 @@ OhMyFiles is a school project at the University of St. Gallen. This application 
 
 The goal of this project is to make use of one of the safest file transfer mechanisms (SSH + rsync) to instantly backup files from your computer. The inspiration came from being dependent on third party applications (like Google Cloud, DropBox or even self-hosted applications like ownCloud). When using a cloud provider, you give up control of your files. When using a self-hosted solution, you need to take care of updating the application, otherwise your solution will end up having security holes.
 
-### Prerequisites
+## Prerequisites
 
 What you will need before starting:
 
@@ -15,7 +15,7 @@ What you will need before starting:
 * If you do not want to use the binaries but rather want to run it with node, **node v.13.2**
 * a remote server with SSH installed and access to it via ssh key
 
-### Installing (node)
+# Installing (node)
 
 ## Mac OS X
 
@@ -23,7 +23,7 @@ What you will need before starting:
 
 
 
-### Installing (binaries)
+# Installing (binaries)
 
 ## Mac OS X
 
@@ -32,7 +32,7 @@ What you will need before starting:
 
 
 
-## DISCLAIMER
+# DISCLAIMER
 
 Read the following disclaimers carefully before using this software.
 
