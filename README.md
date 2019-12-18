@@ -25,7 +25,7 @@ You will need to run the following commands in a terminal.
 
 This software was tested using Mac OS X Mojave 10.14.6, node v13.2.0 and npm 6.13.1.
 
-Install Homebrew. Homebrew is a package manager.
+Install [Homebrew](https://brew.sh/). Homebrew is a package manager for Mac OS X.
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -76,6 +76,27 @@ If none of these commands returned an error, you are set to go!
 # Usage
 
 ## Mac OS X
+
+First, create a ssh key. Because of the automatic nature of this software, it is advised to either not set a passphrase for your key or use a ssh-agent for managing keys with passphrases. This example will show how to do it without a passphrase.
+Open your terminal and type in:
+```
+ssh-keygen
+```
+
+It will ask you for the file name and location. You will need the location of the file later on, so use something easy. Also, this key will grant access to your files, so keep it in a safe spot! As mentioned earlier, do not set a passphrase. The program will now generate a ssh key for you. Now, in order to be able to access your remote SSH server via key, you need to add it to the authorized_keys file on your remote machine.
+```
+ssh-copy-id -i ~/.ssh/mykey user@host
+```
+
+Replace "~/.ssh/mykey" with the file from above and "user@host" with your remote machine infos. After that, you are ready to use the program. go to the cloned directory and run:
+```
+node main.js -d [local dir] -s user@host:[remote dir] -i [private key file]
+```
+
+The program will now run until you close the window. Here is an example on how the command could look:
+```
+node main.js -d /Users/akay/Documents/omf/ -s omf@127.0.0.1:/home/omf -i omf.key
+```
 
 ## Windows
 
