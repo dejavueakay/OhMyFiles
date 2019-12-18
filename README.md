@@ -17,11 +17,10 @@ What you will need before starting:
 
 # Installation
 
-## Using node
 
 You will need to run the following commands in a terminal.
 
-### Mac OS X
+## Mac OS X
 
 This software was tested using Mac OS X Mojave 10.14.6, node v13.2.0 and npm 6.13.1.
 
@@ -63,15 +62,8 @@ cd OhMyFiles && npm install
 
 If none of these commands returned an error, you are set to go!
 
-### Windows
+## Windows
 
-
-
-## Using the binaries
-
-### Mac OS X
-
-### Windows
 
 # Usage
 
