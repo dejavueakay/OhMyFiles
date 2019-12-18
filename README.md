@@ -118,3 +118,4 @@ Read the following disclaimers carefully before using this software.
 ## Acknowledgments
 
 * [Patrick McElhaney](https://stackoverflow.com/a/40896897) - Code snippet to list all directories recursively - Thank you!
+* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) - README.md template

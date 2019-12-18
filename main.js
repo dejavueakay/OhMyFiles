@@ -1,7 +1,6 @@
 /*
 
 AUTHOR: ILIJA BAJUNOVIC
-LICENSE: MIT, SEE LICENSE
 DESCRIPTION: This is the main entry point for this application.
 
 */
