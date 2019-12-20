@@ -1,6 +1,6 @@
 # OhMyFiles
 
-OhMyFiles is a school project at the University of St. Gallen. This application is designed to synchronize files securely via SSH + rsync so you always have a backup of your important files.
+OhMyFiles is a school project at the University of St. Gallen. This application is designed to synchronize files securely via SSH + rsync so you always have a backup of your important files. It runs on Mac OS X.
 
 
 ## Goal
@@ -20,7 +20,6 @@ What you will need before starting:
 
 You will need to run the following commands in a terminal.
 
-## Mac OS X
 
 This software was tested using Mac OS X Mojave 10.14.6, node v13.2.0 and npm 6.13.1.
 
@@ -62,12 +61,9 @@ cd OhMyFiles && npm install
 
 If none of these commands returned an error, you are set to go!
 
-## Windows
-
 
 # Usage
 
-## Mac OS X
 
 First, create a ssh key. Because of the automatic nature of this software, it is advised to either not set a passphrase for your key or use a ssh-agent for managing keys with passphrases. This example will show how to do it without a passphrase.
 Open your terminal and type in:
@@ -89,9 +85,6 @@ The program will now run until you close the window. Here is an example on how t
 ```
 node main.js -d /Users/akay/Documents/omf/ -s omf@127.0.0.1:/home/omf -i omf.key
 ```
-
-## Windows
-
 
 
 
