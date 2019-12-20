@@ -12,7 +12,7 @@ The goal of this project is to make use of one of the safest file transfer mecha
 What you will need before starting:
 
 * **rsync** installed on your computer
-* If you do not want to use the binaries but rather want to run it with node, **node v.13.2** and **git**.
+* **node v.13.2** and **git**.
 * a remote server with **SSH** installed and access to it via ssh key
 
 # Installation
